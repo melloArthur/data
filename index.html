@@ -1,13 +1,30 @@
-<script>
-    document.open();
-    atualReal = new Date();
-    inicioReal = new Date(2022, 00, 09);
-    inicioRp = new Date(1945, 00, 01);
-    tempo = atualReal - inicioReal;
-    tempoRa = tempo * 105
-    tempoRp = tempoRa/24/60/60/1000
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Data do Roleplay</title>
+  <link rel="stylesheet" href="./style.css">
 
-    inicioRp.setDate(inicioRp.getDate() + tempoRp);
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 id="headline">Data oficial | Brasil RP</h1>
+  <div id="countdown">
+    <ul>
+      <li><span id="days"></span>Dia</li>
+      <li><span id="hours"></span>Mês</li>
+      <li><span id="minutes"></span>Ano</li>
+    </ul>
+  </div>
+  <div id="content" class="emoji">
+    <span>🥳</span>
+    <span>🎉</span>
+    <span>🎂</span>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
 
-    document.write(inicioRp)
-</script>
+</body>
+</html>
