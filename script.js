@@ -27,7 +27,7 @@
           distance = countDown - now;
         atualReal = new Date();
         inicioReal = new Date(2022, 02, 1, 00);
-        inicioRp = new Date(1843, 00, 01, 00);
+        inicioRp = new Date(1878, 00, 01, 00);
         tempo = atualReal - inicioReal;
         tempoRa = tempo * 105;
         var ms = inicioRp.getTime() + tempoRa;
